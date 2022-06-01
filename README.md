@@ -19,4 +19,4 @@ ________________________________________________________________________________
 
 The app itself is modular: you can use another dict.txt file with you own words as long as you display it like it is in the original file, which is one line per word with a return.
 
-If this has been useful for you in anyway, feel free to tell me, I'd be glad.
+If this has been useful for you in anyway, feel free to tell me, I'd be glad to hear it :)
