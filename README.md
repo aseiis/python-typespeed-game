@@ -1,8 +1,8 @@
 # python-typespeed-game
 
-A small tkinter app where you have to type the most words in a given number of seconds
+A small game where you have to type the most words in a given number of seconds.
 
-This is a very basic and minimal project.
+This is a very basic and minimal project made with the tkinter Python library.
 
 ______________________________________________________________________________________
 
