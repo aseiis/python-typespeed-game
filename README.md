@@ -4,6 +4,8 @@ A small game where you have to type the most words in a given number of seconds.
 
 This is a very basic and minimal project made with the tkinter Python library.
 
+![screenshot](/ingame.png)
+
 ______________________________________________________________________________________
 
 The application source code is essentially is the app.py.

@@ -35,7 +35,7 @@ class MainApp(tk.Frame):
         #Word
         self.filestream = open("dict.txt")
         self.total_words = len(self.filestream.readlines())
-        print(f"Total words: {self.total_words}")
+        #print(f"Total words: {self.total_words}")
         self.word_value = ""
         self.word_label = tk.Label(self.central_frame, text="<...>", font=cfg.default_font_tuple,
                                    fg=cfg.default_strong_fg, bg=cfg.default_bg)
@@ -83,13 +83,13 @@ class MainApp(tk.Frame):
         random.seed()
         # r is a random word picked in the text file opened in self.filestream
         r = random.randrange(self.total_words)
-        print(f"Choosen word: {r}")
+        #print(f"Choosen word: {r}")
         w = ""
         while w == "":
             w = linecache.getline("dict.txt", r, module_globals=None)
         self.word_value = w.strip()
         self.word_label.configure(text=self.word_value)
-        print("w:" + w)
+        #print("w:" + w)
         self.update()
 
     def step(self):
